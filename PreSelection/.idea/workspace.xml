@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="323a93ce-30b8-4cbe-b508-ef46241b89f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/BronzeCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/GoldCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/SilverCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/core/PayDesk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/engine/PayDeskTaskEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreSelection/META-INF/PreSelection.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PreSelection/task1/explanation.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paydesk_task/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/task2/PayDesk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/paydesk_task/PayDesk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/PayDesk.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/BaseCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/BronzeCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/Card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/GoldCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/SilverCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/engine/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/engine/PayDeskTaskEngine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/output/ConsoleWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/output/ConsoleWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paydesk_task/output/OutputWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/output/OutputWriter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,11 +82,11 @@
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="paydesk_task.Main" />
+      <option name="MAIN_CLASS_NAME" value="pay_desk_task.Main" />
       <module name="PreSelection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="paydesk_task.cards.*" />
+          <option name="PATTERN" value="pay_desk_task.cards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,7 +178,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582650830440</updated>
       <workItem from="1582650831818" duration="8982000" />
-      <workItem from="1582661193148" duration="3809000" />
+      <workItem from="1582661193148" duration="6618000" />
     </task>
     <servers />
   </component>

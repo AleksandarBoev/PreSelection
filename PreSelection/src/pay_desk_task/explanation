@@ -1,0 +1,9 @@
+The entry point is in the "Main" class, which contains a main method. All needed objects are created and passed to
+an engine which takes care of the rest. When the application is run the example in the task description
+is printed on the console.
+
+The "Card" interface contains only one method - "getDiscount". Different implementations calculate the returned value
+differently.
+
+"PayDesk" class contains only static methods as required in task description. The role of it is to do minor
+calculations using the provided "turnover", "purchaseValue" and type of card. Returns string messages.

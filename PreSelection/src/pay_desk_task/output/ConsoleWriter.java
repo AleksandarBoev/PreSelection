@@ -1,4 +1,4 @@
-package paydesk_task.output;
+package pay_desk_task.output;
 
 public class ConsoleWriter implements OutputWriter {
     @Override
