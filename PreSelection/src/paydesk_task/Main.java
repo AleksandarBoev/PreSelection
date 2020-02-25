@@ -1,4 +1,6 @@
-package task2;
+package paydesk_task;
+
+import java.math.BigDecimal;
 
 public class Main {
     public static void main(String[] args) {

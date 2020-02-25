@@ -6,16 +6,12 @@ A counter variable is initialized to keep track of found sets.
 An endless "while" cycle is made. Algorithm in this case is more readable and understandable when the condition to stop
 the cycle is inside it instead in the "while" clause.
 
-The variable, used for iteration over the array is initialized outside it. This way it is possible to know if
-the "for" cycle has ended without finding a set of matching elements.
-
-The length of the array is saved in a variable, because it is possible for the length to be changed.
+The length of the array is saved in a variable to check if the array has been changed.
 
 The "for" cycle starts iterating from first index to length of the array minus size of set. This way a potential
 "index out of bounds" exception is avoided in the boolean expression after. The said expression checks if the element
-at the current index and the next two have the same values. If so, the counter is incremented and the array
+at the current index and the next two have the same values. If so, the counter is incremented and a new array is created
+without the three matching elements.
 
 Finally, there's a boolean expression checking if the array's length is smaller than the size of searched sets
-or if the iteration variable has reached it's maximum value (meaning a set has not been found). If either one returns
-true, then the algorithm stops and the counter is returned as result.
-
+or if the array has been changed.
