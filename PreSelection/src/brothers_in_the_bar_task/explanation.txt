@@ -1,0 +1,17 @@
+First a copy of the passed array is made. The method name does not suggest that the passed array must be changed
+so in order to preserve it, a copy is created and the algorithm works with it.
+
+A counter variable is initialized to keep track of found sets.
+
+An endless "while" cycle is made. Algorithm in this case is more readable and understandable when the condition to stop
+the cycle is inside it instead in the "while" clause.
+
+The length of the array is saved in a variable to check if the array has been changed.
+
+The "for" cycle starts iterating from first index to length of the array minus size of set. This way a potential
+"index out of bounds" exception is avoided in the boolean expression after. The said expression checks if the element
+at the current index and the next two have the same values. If so, the counter is incremented and a new array is created
+without the three matching elements.
+
+Finally, there's a boolean expression checking if the array's length is smaller than the size of searched sets
+or if the array has been changed.
