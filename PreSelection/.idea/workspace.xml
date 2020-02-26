@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="323a93ce-30b8-4cbe-b508-ef46241b89f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/BronzeCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/Card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/GoldCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/cards/SilverCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/core/PayDesk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pay_desk_task/engine/PayDeskTaskEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/PayDesk.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/BaseCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/BronzeCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/Card.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/GoldCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/cards/SilverCard.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/engine/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/engine/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/engine/PayDeskTaskEngine.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/output/ConsoleWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/output/ConsoleWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/paydesk_task/output/OutputWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pay_desk_task/output/OutputWriter.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,6 +43,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="task1" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="brothers_in_the_bar_after_deadline" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -80,7 +65,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.BrothersInTheBarTest (1)">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pay_desk_task.Main" />
       <module name="PreSelection" />
@@ -90,6 +75,21 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BrothersInTheBarTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="PreSelection" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="brothers_in_the_bar_after_deadline.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="brothers_in_the_bar_after_deadline" />
+      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_after_deadline.BrothersInTheBarTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -109,48 +109,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrothersInTheBarTest.exampleCase02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BrothersInTheBarTest.exampleCase01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreSelection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="brothers_in_the_bar_task.*" />
+          <option name="PATTERN" value="brothers_in_the_bar_after_deadline.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="brothers_in_the_bar_task" />
-      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_task.BrothersInTheBarTest" />
-      <option name="METHOD_NAME" value="exampleCase02" />
+      <option name="PACKAGE_NAME" value="brothers_in_the_bar_after_deadline" />
+      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_after_deadline.BrothersInTheBarTest" />
+      <option name="METHOD_NAME" value="exampleCase01" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BrothersInTheBarTest.test11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BrothersInTheBarTest.whenTwoSetsOfSameElements_shouldReturnTwo (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="PreSelection" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="brothers_in_the_bar_task.*" />
+          <option name="PATTERN" value="brothers_in_the_bar_after_deadline.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="brothers_in_the_bar_task" />
-      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_task.BrothersInTheBarTest" />
-      <option name="METHOD_NAME" value="test11" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BrothersInTheBarTest.whenTwoSetsOfSameElements_shouldReturnTwo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="PreSelection" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="brothers_in_the_bar_task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="brothers_in_the_bar_task" />
-      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_task.BrothersInTheBarTest" />
+      <option name="PACKAGE_NAME" value="brothers_in_the_bar_after_deadline" />
+      <option name="MAIN_CLASS_NAME" value="brothers_in_the_bar_after_deadline.BrothersInTheBarTest" />
       <option name="METHOD_NAME" value="whenTwoSetsOfSameElements_shouldReturnTwo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -159,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BrothersInTheBarTest (1)" />
+        <item itemvalue="JUnit.BrothersInTheBarTest.whenTwoSetsOfSameElements_shouldReturnTwo (1)" />
+        <item itemvalue="JUnit.BrothersInTheBarTest.exampleCase01" />
         <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.BrothersInTheBarTest" />
-        <item itemvalue="JUnit.BrothersInTheBarTest.whenTwoSetsOfSameElements_shouldReturnTwo" />
-        <item itemvalue="JUnit.BrothersInTheBarTest.exampleCase02" />
-        <item itemvalue="JUnit.BrothersInTheBarTest.test11" />
       </list>
     </recent_temporary>
   </component>
@@ -179,6 +163,7 @@
       <updated>1582650830440</updated>
       <workItem from="1582650831818" duration="8982000" />
       <workItem from="1582661193148" duration="6618000" />
+      <workItem from="1582727118671" duration="4584000" />
     </task>
     <servers />
   </component>
@@ -190,7 +175,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -206,5 +193,16 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="head.next.next.next.next.next.prev" />
+        <watch expression="currentNode" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PreSelection$BrothersInTheBarTest_exampleCase01.ic" NAME="BrothersInTheBarTest.exampleCase01 Coverage Results" MODIFIED="1582728337174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>brothers_in_the_bar_after_deadline.*</FILTER>
+    </SUITE>
   </component>
 </project>
